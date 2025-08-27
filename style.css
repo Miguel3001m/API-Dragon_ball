@@ -83,8 +83,16 @@ h1 {
     transform: scale(1.2);
 }
 
+/* .card:hover {
+    box-shadow: rgb(0, 179, 255) -5px 5px, rgba(81, 0, 255, 0.887) -5px 5px, rgba(66, 0, 247, 0.816) -15px 15px, rgba(84, 35, 189, 0.773) -20px 20px, rgb(89, 0, 255) -25px 25px;
+} */
+
 .card:hover {
-    box-shadow: rgb(255, 145, 0) -5px 5px, rgb(255, 196, 0) -5px 5px, rgb(247, 202, 0) -15px 15px, rgba(242, 255, 0, 0.87) -20px 20px, rgb(255, 187, 0) -25px 25px;
+    box-shadow:
+        0 4px 20px 0 rgba(255, 255, 0, 0.6),     /* amarelo claro */
+        0 8px 40px 0 rgba(255, 230, 0, 0.5),     /* amarelo médio */
+        0 12px 60px 0 rgba(255, 200, 0, 0.4),    /* amarelo escuro */
+        0 16px 80px 0 rgba(189, 168, 35, 0.3);   /* dourado */
 }
 
 .card:hover h3 {
